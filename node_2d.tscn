@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://iorqx3hng51o"]
+[gd_scene load_steps=3 format=3 uid="uid://iorqx3hng51o"]
 
 [ext_resource type="Script" path="res://HelloWorldGustavoR.gd" id="1_2yj6b"]
+[ext_resource type="Script" path="res://HelloWorldFranco.gd" id="2_lrth7"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="node-gustavo-r" type="Node2D" parent="."]
 script = ExtResource("1_2yj6b")
+
+[node name="node-franco" type="Node2D" parent="."]
+script = ExtResource("2_lrth7")
